@@ -27,8 +27,8 @@ public class SmokeTest {
 	@When("^I enter valid username and valid password$")
 	public void i_enter_valid_username_and_valid_password() throws Throwable {
 	   
-		driver.findElement(By.xpath("//input[@id='_58_login']")).sendKeys("rajasekhar.kakumanu");
-		driver.findElement(By.xpath("//input[@id='_58_password']")).sendKeys("India2018*");
+		driver.findElement(By.xpath("//input[@id='_58_login']")).sendKeys("rajasekhar");
+		driver.findElement(By.xpath("//input[@id='_58_password']")).sendKeys("India*");
 			
 	}
 
