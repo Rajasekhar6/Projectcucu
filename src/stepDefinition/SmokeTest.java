@@ -10,7 +10,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class SmokeTest {
-
+//Testing with webhook with jenkins
 	WebDriver driver ;
 	
 	@Given("^Open firefox and start application$")
