@@ -5,3 +5,5 @@ Feature: smoke test of the trianz login
    When I enter valid username and valid password
    Then user should be able to login successfully
 	
+	
+	

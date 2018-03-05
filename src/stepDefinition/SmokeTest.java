@@ -19,7 +19,7 @@ public class SmokeTest {
 		System.setProperty("webdriver.chrome.driver","C:\\Personel\\Softwares\\chromedriver_win32\\chromedriver.exe");	
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://cucutest.com");
+		driver.get("https://trinet.trianz.com");
 		
 		
 	}
@@ -27,8 +27,8 @@ public class SmokeTest {
 	@When("^I enter valid username and valid password$")
 	public void i_enter_valid_username_and_valid_password() throws Throwable {
 	   
-		driver.findElement(By.xpath("//input[@id='_58_login']")).sendKeys("rajasekhar");
-		driver.findElement(By.xpath("//input[@id='_58_password']")).sendKeys("India*");
+		driver.findElement(By.xpath("//input[@id='_58_login']")).sendKeys("rajasekhar.kakumanu");
+		driver.findElement(By.xpath("//input[@id='_58_password']")).sendKeys("Aws2018*");
 			
 	}
 
