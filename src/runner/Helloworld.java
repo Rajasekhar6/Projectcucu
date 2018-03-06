@@ -1,10 +1,29 @@
-
-
+package runner;
+//adding coments
 public class Helloworld
 {
+	int empno;
+	String name;
+		
+	public Helloworld(int empno,String name)
+	{
+		this.empno=empno;
+		this.name=name;
+	}
+
+	public String toString()
+	{
+		return empno +"===="+name;
+	}
 public static void main(String args[])
 {
-System.out.println("Hello world");
-}
-}
+ 
+	Helloworld h1 = new Helloworld(1000, "Raja");
+	Helloworld h2 = new Helloworld(1010, "Sekhar");
 
+	System.out.println(h1);
+	System.out.println(h2);
+	
+
+
+}}
